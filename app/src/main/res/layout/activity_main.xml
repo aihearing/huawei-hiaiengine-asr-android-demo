@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button_cacelListening"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/button_stopListening"
+        android:text="CANCEL LISTENING"/>
+
+    <Button
+        android:id="@+id/button_updateLexicon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_cacelListening"
+        android:layout_centerHorizontal="true"
+        android:text="UPDATE LEXICON"/>
+
+    <Button
+        android:id="@+id/button_writePcm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/button_stopListening"
+        android:layout_below="@+id/button_updateLexicon"
+        android:text="WRTIE PCM"/>
+
+
+    <Button
+        android:id="@+id/recognize_file"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/button_stopListening"
+        android:layout_below="@+id/button_writePcm"
+        android:text="RECOGNIZE FILE"/>
+
+    <Button
+        android:id="@+id/button_stopListening"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/recognize_file"
+        android:text="STOP LISTENING"/>
+
+    <Button
+        android:id="@+id/start_record"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_stopListening"
+        android:text="START RECORD"/>
+
+    <TextView
+        android:id="@+id/start_record_show"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="测试结果"
+        android:textSize="20sp"
+        android:layout_below="@+id/start_record" />
+
+</RelativeLayout>

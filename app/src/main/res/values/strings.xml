@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">诺亚-海思</string>
+    <string name="action_settings">Settings</string>
+    <string name="auto_function">随机调用接口</string>
+    <string name="multi_functions">并发调用多个接口</string>
+    <string name="single_functions">并发调用单个接口</string>
+    <string name="keep_bind">初始化-销毁引擎</string>
+    <string name="write_updateLex">writepcm时连续导词2次</string>
+
+    <string name="notes">Ready</string>
+    <string name="callTimes">调用次数</string>
+    <string name="currentTime">并发次数</string>
+    <string name="createAsrRecognizer">createAsrRecognizer</string>
+    <string name="init">Init</string>
+    <string name="startListening">startListening</string>
+    <string name="updateLexicon">updateLexicon</string>
+    <string name="cancel">cancel</string>
+    <string name="writePcm">writePcm</string>
+    <string name="stopListening">stopListening</string>
+    <string name="destroy">destroy</string>
+    
+    <string name="onInit">onInit</string>
+    <string name="onBeginningOfSpeech">onBeginningOfSpeech</string>
+    <string name="onRmsChanged">onRmsChanged</string>
+    <string name="onEndOfSpeech">onEndOfSpeech</string>
+    <string name="onRecordStart">onRecordStart</string>
+    <string name="onRecordEnd">onRecordEnd</string>
+    <string name="onPartialResults">onPartialResults</string>
+    <string name="onError">onError</string>
+    <string name="onResults">onResults</string>
+    <string name="onBufferReceived">onBufferReceived</string>
+    <string name="onEvent">onEvent</string>
+    <string name="onEnd">onEnd</string>
+    <string name="onLexiconUpdated">onLexiconUpdated</string>
+    <string name="notification_recording">record</string>
+</resources>
+     
